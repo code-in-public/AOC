@@ -165,8 +165,6 @@ def get_valid_passport_count(filename):
 
     return len(valid_passports)
 
-# TODO Add tests for validation methods
-
 all_invalid_filename = "input_day4_example_invalid.txt"
 print(get_valid_passport_count(all_invalid_filename))
 
